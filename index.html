@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <section id="content">
+    <section class="container">
+      <div>
+        <label for="bill">Bill Amount</label>
+        <input type="number" name="bill" id="bill" min="1">
+      </div>
+
+      <div>
+        <label for="tip">Tip</label>
+        <select name="percentage" id="tip">
+          <option value="0">0%</option>
+          <option value="5">5%</option>
+          <option value="10">10%</option>
+          <option value="20">20%</option>
+          <option value="30">30%</option>
+          <option value="40">40%</option>
+          <option value="50">50%</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="split_btn">Split Bill</label>
+        <input type="checkbox" name="split_btn" id="split_btn">
+        
+        <section class="people">
+          <label for="people">No. of People</label>
+          <input  id="people" type="number" name="people" min="1" max="50">
+        </section>
+      </div>
+
+      <div>
+        <button type="submit" id="calculate" class="button">Calculate</button>
+      </div>
+
+
+    </section>
+
+    <section class="results">
+      <div>
+        <label id="results" for="results"></label>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+</section>
+
+</body>
+</html>

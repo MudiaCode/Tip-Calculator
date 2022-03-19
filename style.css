@@ -1,0 +1,30 @@
+#content{
+  width: 300px;
+  height: auto;
+  display: grid;
+}
+
+.container{
+  width: 300px;
+  display: grid;
+  border: 1px solid black;
+  padding: 50px;
+  justify-content: center;
+}
+
+.results{
+  display: grid;
+  border: 1px solid black;
+  padding: 10px;
+  border-top: none;
+}
+
+.people{
+  display: none;
+}
+
+.results{
+  text-align: center;
+  font-size: larger;
+}
+
